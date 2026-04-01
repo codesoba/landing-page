@@ -101,3 +101,39 @@ h2 {
     display: flex;
     align-self: flex-end;
 }
+
+.cta {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 96px 0 96px 0;
+}
+
+.cta .wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 32px 96px 32px 96px;
+    color: white;
+    gap: 200px;
+    background-color: #3882F6;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.container h3, .container p {
+    margin: 0;
+    padding: 0;
+}
+
+.cta button {
+    border: 2px solid white;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 20px;
+}
+
