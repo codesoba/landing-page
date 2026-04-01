@@ -92,6 +92,8 @@ h1 {
     gap: 16px;
     justify-content: center;
     align-items: center;
+    margin: 0;
+    padding: 50px 0 50px 0;
 }
 
 h2 {
@@ -108,11 +110,25 @@ h2 {
     margin: 0;
     padding: 0;
     max-width: 800px;
+    gap: 48px;
 }
 
 .card {
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.card img {
+    max-width: 200px;
+}
+
+.card p {
+    display: flex;
+    flex: 1;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 200;
 }
 
 .quote {
