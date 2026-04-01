@@ -5,3 +5,99 @@ body {
     margin: 0;
     padding: 0;
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: white;
+    margin: 0;
+    padding: 16px
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+header p {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 16px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.randominfo {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 36px;
+    font-family: 900;
+    color: #1F2937;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+    max-width: 800px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0 32px 0;
+}
+
+.quote_text {
+    max-width: 800px;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author {
+    display: flex;
+    align-self: flex-end;
+}
