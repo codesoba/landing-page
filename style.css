@@ -117,12 +117,13 @@ h2 {
     color: white;
     gap: 200px;
     background-color: #3882F6;
+    border-radius: 10px;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    gap: 14px;
+    gap: 8px;
 }
 
 .container h3, .container p {
@@ -134,6 +135,7 @@ h2 {
     border: 2px solid white;
     background-color: #3882F6;
     color: white;
-    border-radius: 20px;
+    border-radius: 8px;
+    padding: 8px 32px 8px 32px;
 }
 
