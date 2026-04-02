@@ -1,11 +1,11 @@
 # Landing Page — The Odin Project
 
-A landing page built from scratch as part of The Odin Project's curriculum.
-The goal is to replicate a provided design using HTML and CSS.
+A landing page built from scratch as part of The Odin Project's Foundations curriculum.
+The goal is to replicate a provided design using only HTML and CSS.
 
 ## Demo
 
-X
+[Live preview](https://codesoba.github.io/landing-page/)
 
 ## Design reference
 
@@ -15,12 +15,18 @@ X
 ## Built with
 
 - HTML
-- CSS
+- CSS (Flexbox)
+- Google Fonts (Roboto)
 
 ## Images
 
-Images sourced from [Unsplash](https://unsplash.com/) / [Pexels](https://www.pexels.com/) — free to use.
+Images sourced from [Unsplash](https://unsplash.com/) — free to use under the Unsplash License.
 
 ## What I learned
 
-X
+This project was my first time building a full page layout from a design reference using only HTML and CSS. A few things that clicked during the process:
+
+- How flexbox works in practice, not just in theory — especially `align-items`, `justify-content`, and `align-self` for fine-tuning individual elements
+- The difference between setting properties on a flex container vs. on its children
+- How browser default styles (margins, padding) can silently break your layout
+- The importance of semantic class naming — I refactored `.container` mid-project after it caused conflicts between two separate sections
