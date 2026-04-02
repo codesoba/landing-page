@@ -26,7 +26,7 @@ Images sourced from [Unsplash](https://unsplash.com/) — free to use under the 
 
 This project was my first time building a full page layout from a design reference using only HTML and CSS. A few things that clicked during the process:
 
-- How flexbox works in practice, not just in theory — especially `align-items`, `justify-content`, and `align-self` for fine-tuning individual elements
+- How flexbox works in practice : especially `align-items`, `justify-content`, and `align-self` for fine-tuning individual elements
 - The difference between setting properties on a flex container vs. on its children
 - How browser default styles (margins, padding) can silently break your layout
-- The importance of semantic class naming — I refactored `.container` mid-project after it caused conflicts between two separate sections
+- The importance of semantic class naming. I refactored `.container` mid-project after it caused conflicts between two separate sections
